@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <script src="https://cdn.jsdelivr.net/gh/tameemsafi/typewriterjs/dist/core.js"></script><head>
+    <title>Hornet Motor Controller</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";#content{position:absolute;top:50%;left:50%;width:800px;height:600px;min-width:250px;max-width:800px;margin-left:-400px;margin-top:-300px;font-family:inconsolata,monospace;font-size:24px;line-height:28px;font-weight:400}
+
+
+
+
+
+
+
+
+
+body{background:#282828}body #terminal{color:#ebdbb2}body #user{color:#98971a}body #dir{color:#458588}body .Typewriter__cursor{color:#ebdbb2}a{color:#ebdbb2}</style>
+
+</head><body><div id="content">
+    
+    
+
+    
+    
+    <div id=typewriter></div>
+
+<script type="text/javascript">
+    const instance = new Typewriter('#typewriter', {
+        strings: '\u003cspan id=terminal\u003e\u003ch1 id=\u0027title\u0027\u003eHornet Motor Controller\u003c\/h1\u003e\u003cp\u003e\u003ca href=\u0022https:\/\/github.com\/sahil-kale\/MotorController\u0022\u003elink to project\u003c\/a\u003e\u003c\/p\u003e\n\u003ch3 id=\u0022tldr\u0022\u003etldr\u003c\/h3\u003e\n\u003cp\u003eDeveloping of a motor controller for brushed and brushless motors with features such as built-in PIDF feedback control, triangle, trapezoidal, and s-curve motion profile generation, and encoder feedback. It can interface with other devices using UART and CAN, and can be controlled via CAN or PWM.\u003c\/p\u003e\n\u003ch3 id=\u0022purpose\u0022\u003ePurpose\u003c\/h3\u003e\n\u003cp\u003eThe purpose of this project was to create a motor controller that can be used to drive both brushed and brushless motors, perform PIDF feedback control, generate motion profiles and interface over CAN, PWM, and UART. We wanted to replicate and build on features that we used in FRC with controllers like the Spark MAX and the CTRE Talon.\u003c\/p\u003e\n\u003ch3 id=\u0022features\u0022\u003eFeatures\u003c\/h3\u003e\n\u003cp\u003eThis project is still in development, however so far, from a hardware perspective, the motor controller supports UART and CAN communication, can take input via PWM, can be connected directly to a quad encoder, can accept up to 24V and output that to both brushed and brushless motors, and it can “brake” the motors as well. From a software perspective, the built in PIDF is supported, motion profile generators for trapezoidal and triangular profiles are supported, drivers for quad encoders, CAN, UART, and PWM input and output is also written. The driver for brushed motor output is also written.\nThis project makes use of a stm32f4 as its core, which was chosen as it meets our requirements for speed, has the necessary amount of timers, has support for CAN and for FreeRTOS.\u003c\/p\u003e\n\u003ch3 id=\u0022future-features\u0022\u003eFuture Features\u003c\/h3\u003e\n\u003cp\u003eSoftware features that we need to implement include the brushless driver and the state machine that controls the motor and makes use of the drivers. Another software improvement is support for S-curve motion profiles, the algorithm for which is currently in development\nHardware updates that we are looking into for version 2, include using a lower cost chip and adding another CAN line to the board so that the controller can be daisy chained over can.\u003c\/p\u003e\n\u003c\/span\u003e',
+        delay: '1',
+        autoStart: true,
+    });
+</script>
+
+        </div></body>
+</html>

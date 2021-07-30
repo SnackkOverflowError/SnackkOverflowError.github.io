@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aaditya Chaudhary</title>
+    <link>https://aadityachaudhary.github.io/</link>
+    <description>Recent content on Aaditya Chaudhary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jul 2021 02:17:23 -0400</lastBuildDate><atom:link href="https://aadityachaudhary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frc Robot</title>
+      <link>https://aadityachaudhary.github.io/posts/frc-robot/</link>
+      <pubDate>Fri, 30 Jul 2021 02:17:23 -0400</pubDate>
+      
+      <guid>https://aadityachaudhary.github.io/posts/frc-robot/</guid>
+      <description>tldr Developed code for 3 125 lb robots that competes in FRC competitions. The 2020 robot uses PIDF and computer vision to accurately shoot balls into an 8 foot high target. It was able to pickup and automatically indexballs, and rotate a colour wheel a specific number of times using a colour sensor.
+2020 In 2020, I was the programming advisor and helped to design and implement the software for the robot.</description>
+    </item>
+    
+    <item>
+      <title>Spaceapps</title>
+      <link>https://aadityachaudhary.github.io/posts/spaceapps/</link>
+      <pubDate>Fri, 30 Jul 2021 02:03:00 -0400</pubDate>
+      
+      <guid>https://aadityachaudhary.github.io/posts/spaceapps/</guid>
+      <description>link to project
+tldr Developed the front end for a site that uses Machine Learning topredict whether a city will be a covid hotspot given certain parameters. Also did data collection for the ML model, and worked on the python backend.
+Purpose The point of the competition was to utilize data gathered by different government agencies (such as NASA) to aid with the covid outbreak in some way. My team decided to make a website that could predict if your town will become a covid hotspot based on past data of covid hotspots.</description>
+    </item>
+    
+    <item>
+      <title>Frc Scouting App</title>
+      <link>https://aadityachaudhary.github.io/posts/frc-scouting/</link>
+      <pubDate>Fri, 30 Jul 2021 01:46:00 -0400</pubDate>
+      
+      <guid>https://aadityachaudhary.github.io/posts/frc-scouting/</guid>
+      <description>tldr Developed a data collection app to facilitate the recording, organizing, and uploading of scouting data gathered by FRC teams. Data was collected on an app made in flutter, and uploaded to a Firebase NoSql database, and organized using Firebase Functions written in Javascript. The App was later modified to use QR codes to transfer data and SQLite databases to store data.
+Purpose At First Robotics Competitions, teams record data on other teams, to identify opponent strengths and weaknesses.</description>
+    </item>
+    
+    <item>
+      <title>Quinoa</title>
+      <link>https://aadityachaudhary.github.io/posts/quinoa/</link>
+      <pubDate>Fri, 30 Jul 2021 01:29:42 -0400</pubDate>
+      
+      <guid>https://aadityachaudhary.github.io/posts/quinoa/</guid>
+      <description>Devpost Link Backend Code Flutter App Code Alexa Code
+tldr Developed a smart personal scheduling app that learns from the user and suggests times to schedule events based on past decisions the user has made using machine learning. This was made for HackTheNortheast and won the machine learning prize.
+Purpose Quinoa is a personal assistant scheduling app that can automatically schedule events according to user preferences. It does this by learning what times the user would like to schedule specific events with a custom machine learning model designed specifically to learn how to schedule events over time.</description>
+    </item>
+    
+    <item>
+      <title>Hornet Motor Controller</title>
+      <link>https://aadityachaudhary.github.io/posts/hornet-motor-controller/</link>
+      <pubDate>Fri, 30 Jul 2021 01:12:52 -0400</pubDate>
+      
+      <guid>https://aadityachaudhary.github.io/posts/hornet-motor-controller/</guid>
+      <description>link to project
+tldr Developing of a motor controller for brushed and brushless motors with features such as built-in PIDF feedback control, triangle, trapezoidal, and s-curve motion profile generation, and encoder feedback. It can interface with other devices using UART and CAN, and can be controlled via CAN or PWM.
+Purpose The purpose of this project was to create a motor controller that can be used to drive both brushed and brushless motors, perform PIDF feedback control, generate motion profiles and interface over CAN, PWM, and UART.</description>
+    </item>
+    
+    <item>
+      <title>Go-email</title>
+      <link>https://aadityachaudhary.github.io/posts/go-email/</link>
+      <pubDate>Fri, 30 Jul 2021 00:12:15 -0400</pubDate>
+      
+      <guid>https://aadityachaudhary.github.io/posts/go-email/</guid>
+      <description>link to project
+tldr Developed an open-source library that interfaces with various IMAP, SMTP, and OAuth implementations in Go, to facilitate email app development.
+Purpose The purpose of this library is to provide a simple way to interact with SMTP and IMAP servers by providing an easy to use wrapper around existing SMTP and IMAP implementations in Go. The existing implementations provide a lot of flexibility, however, with that comes a steep learning curve for developers.</description>
+    </item>
+    
+  </channel>
+</rss>
