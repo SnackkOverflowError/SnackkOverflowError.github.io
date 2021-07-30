@@ -10,7 +10,7 @@ theme = "shell"
 	
 	schema = "gruvbox_dark"
 	userName = "aadi"
-	pcName = "portfolio"
+	pcName = "mypc"
 	workDir = "~"
 	profile = "PROFILE"
   	# Note: speed at which text is displayed on the terminal
