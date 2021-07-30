@@ -1,37 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
-    <script src="https://cdn.jsdelivr.net/gh/tameemsafi/typewriterjs/dist/core.js"></script><head>
-    <title>Go-email</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="" />
-    <style>
-@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";#content{position:absolute;top:50%;left:50%;width:800px;height:600px;min-width:250px;max-width:800px;margin-left:-400px;margin-top:-300px;font-family:inconsolata,monospace;font-size:24px;line-height:28px;font-weight:400}
-
-
-
-
-
-
-
-
-
-body{background:#282828}body #terminal{color:#ebdbb2}body #user{color:#98971a}body #dir{color:#458588}body .Typewriter__cursor{color:#ebdbb2}a{color:#ebdbb2}</style>
-
-</head><body><div id="content">
-    
-    
-
-    
-    
-    <div id=typewriter></div>
-
-<script type="text/javascript">
-    const instance = new Typewriter('#typewriter', {
-        strings: '\u003cspan id=terminal\u003e\u003ch1 id=\u0027title\u0027\u003eGo-email\u003c\/h1\u003e\u003cp\u003e\u003ca href=\u0022https:\/\/github.com\/AadityaChaudhary\/go-email\u0022\u003elink to project\u003c\/a\u003e\u003c\/p\u003e\n\u003ch3 id=\u0022tldr\u0022\u003etldr\u003c\/h3\u003e\n\u003cp\u003eDeveloped an open-source library that interfaces with various IMAP, SMTP, and OAuth implementations in Go, to facilitate email app development.\u003c\/p\u003e\n\u003ch3 id=\u0022purpose\u0022\u003ePurpose\u003c\/h3\u003e\n\u003cp\u003eThe purpose of this library is to provide a simple way to interact with SMTP and IMAP servers by providing an easy to use wrapper around existing SMTP and IMAP implementations in Go. The existing implementations provide a lot of flexibility, however, with that comes a steep learning curve for developers. This library provides easy to use functions that encompass the most common features of SMTP and IMAP. It also works with XOauth2 as most major email providers support this authentication protocol and it is more secure compared to using usernames and passwords.\u003c\/p\u003e\n\u003ch3 id=\u0022implemented-features\u0022\u003eImplemented Features\u003c\/h3\u003e\n\u003cp\u003eThis library currently supports two methods to authenticate. One using the user\u0026rsquo;s password and email, and one using their email and token. The library also supports the openID flow to get tokens. In terms of IMAP, the libray supports getting a range of email envelopes that contain information like sender\/reciever, cc, bcc, time, etc. From these envelopes, the developer can also call a seperate function to grab the message content, formatted as a slice of message parts (because messages can be a combination of text, files, images, etc). The last IMAP feature is the easy to use and comprehensive search feature. The library also supports sending simple emails over SMTP.\u003c\/p\u003e\n\u003ch3 id=\u0022future-changesupdates\u0022\u003eFuture Changes\/Updates\u003c\/h3\u003e\n\u003cp\u003eThere are quite a few changes I want to make to this library. It was developed to aid with another project I was working on, so while it does work well and meet its original purpose, there are things that I\u0026rsquo;d like to add to it. First of all, I\u0026rsquo;d like to improve the documentation of this project. I want to make the README comprehensive and clear and I\u0026rsquo;d like to comment all of the functions and remove commented out functions and code. I\u0026rsquo;d also like to fix some formatting issues with the code. In terms of functionality I\u0026rsquo;d like to improve the SMTP functionality. It met my requirements at the time, but it could be better to meet more developer\u0026rsquo;s requirements. Depending on the existing STMP implementations in Go, I may have to improve one or make my own to add this feature to go-email.\u003c\/p\u003e\n\u003c\/span\u003e',
-        delay: '1',
-        autoStart: true,
-    });
-</script>
-
-        </div></body>
+<!doctype html><html lang=en-us>
+<script src=https://cdn.jsdelivr.net/gh/tameemsafi/typewriterjs/dist/core.js></script><head>
+<title>Go-email</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content>
+<style>@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";#content{position:absolute;top:50%;left:50%;width:800px;height:600px;min-width:250px;max-width:800px;margin-left:-400px;margin-top:-300px;font-family:inconsolata,monospace;font-size:24px;line-height:28px;font-weight:400}body{background:#282828}body #terminal{color:#ebdbb2}body #user{color:#98971a}body #dir{color:#458588}body .Typewriter__cursor{color:#ebdbb2}a{color:#ebdbb2}</style>
+</head><body><div id=content>
+<div id=typewriter></div>
+<script type=text/javascript>const instance=new Typewriter('#typewriter',{strings:'\u003cspan id=terminal\u003e\u003ch1 id=\u0027title\u0027\u003eGo-email\u003c/h1\u003e\u003cp\u003e\u003ca href=\u0022https://github.com/AadityaChaudhary/go-email\u0022\u003elink to project\u003c/a\u003e\u003c/p\u003e\n\u003ch3 id=\u0022tldr\u0022\u003etldr\u003c/h3\u003e\n\u003cp\u003eDeveloped an open-source library that interfaces with various IMAP, SMTP, and OAuth implementations in Go, to facilitate email app development.\u003c/p\u003e\n\u003ch3 id=\u0022purpose\u0022\u003ePurpose\u003c/h3\u003e\n\u003cp\u003eThe purpose of this library is to provide a simple way to interact with SMTP and IMAP servers by providing an easy to use wrapper around existing SMTP and IMAP implementations in Go. The existing implementations provide a lot of flexibility, however, with that comes a steep learning curve for developers. This library provides easy to use functions that encompass the most common features of SMTP and IMAP. It also works with XOauth2 as most major email providers support this authentication protocol and it is more secure compared to using usernames and passwords.\u003c/p\u003e\n\u003ch3 id=\u0022implemented-features\u0022\u003eImplemented Features\u003c/h3\u003e\n\u003cp\u003eThis library currently supports two methods to authenticate. One using the user\u0026rsquo;s password and email, and one using their email and token. The library also supports the openID flow to get tokens. In terms of IMAP, the libray supports getting a range of email envelopes that contain information like sender/reciever, cc, bcc, time, etc. From these envelopes, the developer can also call a seperate function to grab the message content, formatted as a slice of message parts (because messages can be a combination of text, files, images, etc). The last IMAP feature is the easy to use and comprehensive search feature. The library also supports sending simple emails over SMTP.\u003c/p\u003e\n\u003ch3 id=\u0022future-changesupdates\u0022\u003eFuture Changes/Updates\u003c/h3\u003e\n\u003cp\u003eThere are quite a few changes I want to make to this library. It was developed to aid with another project I was working on, so while it does work well and meet its original purpose, there are things that I\u0026rsquo;d like to add to it. First of all, I\u0026rsquo;d like to improve the documentation of this project. I want to make the README comprehensive and clear and I\u0026rsquo;d like to comment all of the functions and remove commented out functions and code. I\u0026rsquo;d also like to fix some formatting issues with the code. In terms of functionality I\u0026rsquo;d like to improve the SMTP functionality. It met my requirements at the time, but it could be better to meet more developer\u0026rsquo;s requirements. Depending on the existing STMP implementations in Go, I may have to improve one or make my own to add this feature to go-email.\u003c/p\u003e\n\u003c/span\u003e',delay:'1',autoStart:!0})</script>
+</div></body>
 </html>
