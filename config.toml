@@ -5,7 +5,7 @@ theme = "shell"
 
 [Params]
 
-	description = "Aaditya Chaudhary's Portfolio!"
+	description = "Aaditya Chaudhary's portfolio"
 	[Params.Terminal] 
 	
 	schema = "gruvbox_dark"
