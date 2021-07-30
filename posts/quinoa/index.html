@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <script src="https://cdn.jsdelivr.net/gh/tameemsafi/typewriterjs/dist/core.js"></script><head>
+    <title>Quinoa</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";#content{position:absolute;top:50%;left:50%;width:800px;height:600px;min-width:250px;max-width:800px;margin-left:-400px;margin-top:-300px;font-family:inconsolata,monospace;font-size:24px;line-height:28px;font-weight:400}
+
+
+
+
+
+
+
+
+
+body{background:#282828}body #terminal{color:#ebdbb2}body #user{color:#98971a}body #dir{color:#458588}body .Typewriter__cursor{color:#ebdbb2}a{color:#ebdbb2}</style>
+
+</head><body><div id="content">
+    
+    
+
+    
+    
+    <div id=typewriter></div>
+
+<script type="text/javascript">
+    const instance = new Typewriter('#typewriter', {
+        strings: '\u003cspan id=terminal\u003e\u003ch1 id=\u0027title\u0027\u003eQuinoa\u003c\/h1\u003e\u003cp\u003e\u003ca href=\u0022https:\/\/devpost.com\/software\/quinoa-your-virtual-secretary\u0022\u003eDevpost Link\u003c\/a\u003e\n\u003ca href=\u0022https:\/\/github.com\/LunarCoffee\/Quinoa\u0022\u003eBackend Code\u003c\/a\u003e\n\u003ca href=\u0022https:\/\/github.com\/AadityaChaudhary\/PersonalAssistantApp\/\u0022\u003eFlutter App Code\u003c\/a\u003e\n\u003ca href=\u0022https:\/\/github.com\/1whatleytay\/quinoa\/\u0022\u003eAlexa Code\u003c\/a\u003e\u003c\/p\u003e\n\u003ch3 id=\u0022tldr\u0022\u003etldr\u003c\/h3\u003e\n\u003cp\u003eDeveloped a smart personal scheduling app that learns from the user and suggests times to schedule events based on past decisions the user has made using machine learning. This was made for HackTheNortheast and won the machine learning prize.\u003c\/p\u003e\n\u003ch3 id=\u0022purpose\u0022\u003ePurpose\u003c\/h3\u003e\n\u003cp\u003eQuinoa is a personal assistant scheduling app that can automatically schedule events according to user preferences. It does this by learning what times the user would like to schedule specific events with a custom machine learning model designed specifically to learn how to schedule events over time.\u003c\/p\u003e\n\u003ch3 id=\u0022features\u0022\u003eFeatures\u003c\/h3\u003e\n\u003cp\u003eQuinoa is made up of 3 parts. The first is a backend written with Kotlin that stores a user\u0026rsquo;s calendar in a MongDB database. This backend serves the users schedule to the other components in the system. When a user schedules an event the the backend records it and starts “learning” how the user prefers to set up their schedule. For example if the user schedules a party on friday night from 7pm to midnight, the backend records that event and then records that the user prefers leisure activities on friday nights. The next time the user asks for a time to schedule a party, the backend will suggest friday night.\nThe main frontend of the project is a mobile app that runs on ios and android, built with Flutter. The app is responsible for displaying the schedule, and taking input from the user. It uses a Tensorflow model to classify the type of event that the user registers. So, if a user wants to schedule a study group meeting on a specific day, the app will identify that the event is for school, and will ask the backend for a time slot for a school event on a certain day. The backend sends a potential time slot and the app presents that to the user. If it’s rejected by the user, the app tells the backend and requests another slot. The model learns from both time slot approvals and rejections. The third part is the alexa application. This application uses AWS Lambda to allow the alexa to function in the same way as the app, but without the event classifier. Without that classifier the type of the event is determined by keywords in the event.\u003c\/p\u003e\n\u003ch3 id=\u0022awards\u0022\u003eAwards\u003c\/h3\u003e\n\u003cp\u003eThis project won a machine learning prize at Hack the Northeast. It also won the 1517 prize, which is a grant of 11k dollars in cash and AWS credits.\u003c\/p\u003e\n\u003c\/span\u003e',
+        delay: '1',
+        autoStart: true,
+    });
+</script>
+
+        </div></body>
+</html>
