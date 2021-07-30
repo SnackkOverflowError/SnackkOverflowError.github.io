@@ -1,0 +1,50 @@
+baseURL = "https://aadityachaudhary.github.io/"
+languageCode = "en-us"
+title = "Aaditya Chaudhary"
+theme = "shell"
+
+[Params]
+
+	description = "Aaditya Chaudhary's Portfolio!"
+	[Params.Terminal] 
+	
+	schema = "gruvbox_dark"
+	userName = "aadi"
+	pcName = "portfolio"
+	workDir = "~"
+	profile = "PROFILE"
+  	# Note: speed at which text is displayed on the terminal
+  	terminalDelay =10 
+
+  	# Note: speed at which text is displayed on the activity pages
+  	activityDelay = 1
+
+
+	description = """
+
+	Hello, World! I'm Aaditya Chaudhary, 
+	a first year Mechatronics Engineering student
+	at the University of Waterloo.
+
+	"""
+
+	[Params.Tree]
+	use = true
+	folderName = "links"
+	files = [
+		["github", "https://github.com/AadityaChaudhary"],
+		["linkedin", "https://www.linkedin.com/in/aaditya-chaudhary-a79134187/"],
+		["devpost", "https://devpost.com/AadityaChaudhary"],
+	]
+	
+	[Params.Tree2]
+	use = true
+	folderName = "projects"
+	files = [
+		["go-email", "/posts/go-email.md"],
+		["quinoa", "/posts/quinoa.md"],
+		["hornet motor controller", "/posts/hornet-motor-controller.md"],
+		["frc_scouting_app", "/posts/frc-scouting.md"],
+		["space_apps", "/posts/spaceapps.md"],
+		["frc_team", "/posts/frc-robot.md"],
+	]
